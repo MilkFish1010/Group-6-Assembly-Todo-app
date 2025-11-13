@@ -1,0 +1,319 @@
+================================================================================
+                    ADVANCED TODO MANAGER - HOW TO USE
+================================================================================
+
+                        Quick Start Guide
+                        Version 1.0
+
+================================================================================
+TABLE OF CONTENTS
+================================================================================
+
+1. Getting Started
+2. Adding Tasks
+3. Managing Your Tasks
+4. Viewing and Filtering
+5. Searching for Tasks
+6. Saving and Loading
+7. Keyboard Shortcuts
+8. Tips and Best Practices
+9. Troubleshooting
+
+================================================================================
+1. GETTING STARTED
+================================================================================
+
+LAUNCHING THE APPLICATION:
+- Double-click "todo_advanced.exe" to start the program
+- The main window will open with a two-panel layout:
+  * Left Panel: Task input and creation
+  * Right Panel: Task list and actions
+
+INITIAL WINDOW:
+- Default size: 900 x 800 pixels
+- You can resize the window - the layout automatically adjusts
+- Minimum size is enforced to prevent control overlap
+
+================================================================================
+2. ADDING TASKS
+================================================================================
+
+CREATING A NEW TASK:
+
+Step 1: Enter Task Title
+- Click in the "Task:" input box
+- Type your task title (required field, up to 64 characters)
+- Example: "Buy groceries"
+
+Step 2: Add Description (Optional)
+- Click in the "Description:" multiline box
+- Type detailed notes about the task (up to 128 characters)
+- You can use multiple lines
+- Example: "Milk, eggs, bread, chicken"
+
+Step 3: Set Priority (Optional)
+- Click the "Priority:" dropdown menu
+- Select one of three levels:
+  * Low (⬇)    - Nice to have, no rush
+  * Medium (➡) - Important, regular priority (default)
+  * High (⬆)   - Urgent, do soon
+
+Step 4: Enter Due Date (Optional)
+- Click in the "Due Date [MM/DD/YYYY]:" box
+- Type the date in MM/DD/YYYY format
+- Example: "12/25/2025"
+
+Step 5: Add the Task
+- Click the "Add Task" button
+- Your task will appear in the task list on the right
+- All input fields will clear, ready for the next task
+
+ERROR HANDLING:
+- If you try to add a task without a title, you'll see an error message
+- Simply click OK and add a title before trying again
+
+================================================================================
+3. MANAGING YOUR TASKS
+================================================================================
+
+VIEWING TASK DETAILS:
+- Click on any task in the list
+- Full task information appears in the "Task Details" panel at the bottom:
+  * Task ID (unique identifier)
+  * Title
+  * Description (full text)
+  * Priority level
+  * Due date
+  * Completion status
+
+MARKING TASKS COMPLETE/INCOMPLETE:
+- Select a task from the list
+- Click the "Mark Complete" button
+- Completed tasks show a [✓] checkmark in the list
+- Click "Mark Complete" again to toggle back to incomplete
+
+EDITING A TASK:
+- Select the task you want to modify
+- Click the "Edit Task" button
+- The task's information loads into the input fields on the left
+- Make your changes
+- Click "Add Task" to save the modifications
+
+DELETING A TASK:
+- Select the task you want to remove
+- Click the "Delete" button
+- The task is permanently removed from the list
+- Warning: This cannot be undone unless you reload from a saved file!
+
+================================================================================
+4. VIEWING AND FILTERING
+================================================================================
+
+THREE VIEW MODES:
+
+ALL TASKS (Default)
+- Shows every task in your list
+- Both completed and incomplete tasks visible
+- Best for: Getting the full picture of all your work
+
+TODAY/UPCOMING
+- Shows only incomplete tasks
+- Hides completed tasks
+- Best for: Focusing on what still needs to be done
+
+COMPLETED
+- Shows only completed tasks
+- Hides incomplete tasks
+- Best for: Reviewing finished work, archive view
+
+SWITCHING VIEWS:
+- Click the appropriate button at the top of the task list:
+  * "All Tasks"
+  * "Today/Upcoming"
+  * "Completed"
+- The list updates immediately
+- Task details panel still works in any view
+
+================================================================================
+5. SEARCHING FOR TASKS
+================================================================================
+
+USING THE SEARCH BOX:
+
+Step 1: Type in the Search Box
+- Click in the search box at the top right
+- Start typing any part of a task title or description
+- The list filters in real-time as you type
+
+Step 2: View Results
+- Only matching tasks are displayed
+- Search is case-insensitive (finds "TEST" and "test")
+- Searches both title and description fields
+
+Step 3: Clear the Search
+- Click the "Clear" button next to the search box
+- All tasks reappear based on your current view mode
+
+SEARCH TIPS:
+- Search works in combination with view filters
+- Try searching in "Today/Upcoming" view to find specific incomplete tasks
+- Partial words work (searching "gro" finds "groceries")
+
+================================================================================
+6. SAVING AND LOADING
+================================================================================
+
+SAVING YOUR TASK LIST:
+
+Step 1: Click "Save List"
+- A file dialog window will open
+
+Step 2: Choose Location and Name
+- Navigate to where you want to save
+- Enter a filename (example: "my_tasks")
+- The .todo extension is added automatically
+
+Step 3: Confirm
+- Click "Save" in the dialog
+- A confirmation message appears when successful
+
+LOADING A TASK LIST:
+
+Step 1: Click "Load List"
+- A file dialog window will open
+
+Step 2: Select a File
+- Navigate to your saved .todo file
+- Click on the file to select it
+
+Step 3: Open
+- Click "Open" in the dialog
+- Your tasks load immediately
+- Previous tasks are replaced with the loaded file
+
+FILE FORMAT:
+- Files use the .todo extension
+- Binary format ensures data integrity
+- Compatible across different computers
+- You can share .todo files with other users
+
+IMPORTANT NOTES:
+- Loading a file REPLACES your current task list
+- Always save before loading if you have unsaved changes
+- .todo files preserve all task information:
+  * Task IDs
+  * Titles and descriptions
+  * Priority levels
+  * Due dates
+  * Completion status
+
+================================================================================
+7. KEYBOARD SHORTCUTS
+================================================================================
+
+GENERAL NAVIGATION:
+- Tab           : Move between input fields
+- Enter         : (in single-line fields) Move to next field
+- Arrow Keys    : Navigate task list
+
+TASK LIST:
+- Up/Down       : Select different tasks
+- Click         : Select a task and view details
+
+TEXT EDITING:
+- Ctrl+A        : Select all text in current field
+- Ctrl+C        : Copy selected text
+- Ctrl+V        : Paste text
+- Ctrl+X        : Cut selected text
+
+================================================================================
+8. TIPS AND BEST PRACTICES
+================================================================================
+
+ORGANIZING YOUR TASKS:
+1. Use priority levels consistently
+   - High (⬆): Due today or critical
+   - Medium (➡): Important but not urgent
+   - Low (⬇): When you have time
+
+2. Write descriptive titles
+   - Good: "Submit project proposal"
+   - Less helpful: "Do thing"
+
+3. Use descriptions for details
+   - Add context, requirements, or notes
+   - Include relevant information you might forget
+
+4. Set realistic due dates
+   - Use MM/DD/YYYY format (e.g., 12/31/2025)
+   - Leave undated for ongoing tasks
+
+WORKFLOW SUGGESTIONS:
+1. Start your day in "Today/Upcoming" view
+2. Mark tasks complete as you finish them
+3. Use search to find specific tasks quickly
+4. Save your list regularly (daily or weekly)
+5. Review "Completed" view to track progress
+
+FILE MANAGEMENT:
+1. Create dated backups (e.g., "tasks_2025_11_13.todo")
+2. Keep important lists in a dedicated folder
+3. Share .todo files with team members if needed
+
+MAXIMUM CAPACITY:
+- The application can store up to 100 tasks
+- If you reach this limit, consider archiving completed tasks
+- Save old tasks to a backup file, then delete them from the active list
+
+================================================================================
+9. TROUBLESHOOTING
+================================================================================
+
+COMMON ISSUES AND SOLUTIONS:
+
+PROBLEM: "Can't add task - no error message appears"
+SOLUTION: Make sure you've entered a task title. The title field is required.
+
+PROBLEM: "Task list is empty after loading a file"
+SOLUTION: The file might be empty or corrupted. Try loading a different file.
+
+PROBLEM: "Buttons don't respond to clicks"
+SOLUTION: Make sure a task is selected (for Edit/Delete/Mark Complete).
+          Only "Add Task", "Save", and "Load" work without selection.
+
+PROBLEM: "Window controls overlap or look strange"
+SOLUTION: Your window might be too small. Resize it larger. The application
+          enforces minimum dimensions to prevent layout issues.
+
+PROBLEM: "Search doesn't find my task"
+SOLUTION: Check your spelling and remember search is case-insensitive.
+          Make sure you're in the right view mode (All Tasks shows everything).
+
+PROBLEM: "My changes disappeared"
+SOLUTION: Changes are not saved automatically. Always click "Save List"
+          before closing the application or loading a different file.
+
+PROBLEM: "Application won't start"
+SOLUTION: Ensure you have:
+          - Windows operating system
+          - The .exe file is not corrupted
+          - Sufficient permissions to run programs
+
+RESETTING THE APPLICATION:
+- Simply close and restart the program
+- Your last saved file is preserved
+- To start fresh, create a new empty list and save it
+
+================================================================================
+
+                            ADDITIONAL HELP
+
+For more information, see:
+- README.md - Technical documentation and architecture
+- TESTING_CHECKLIST.md - Comprehensive feature list
+
+Questions or issues? Check that you're running the latest version.
+
+================================================================================
+                    © 2025 Advanced Todo Manager Team
+================================================================================
